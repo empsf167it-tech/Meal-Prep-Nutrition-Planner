@@ -192,6 +192,15 @@ a:hover {
     border-color: var(--primary-green);
 }
 
+/* Card content alignment helpers (keep sibling cards on the same horizontal lines) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    .align-heading { min-height: 2.4em; }
+    .align-sub { min-height: 3.2em; }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .align-sub { min-height: 4.8em; }
+}
+
 /* Header & Navigation */
 .top-bar {
     background-color: var(--dark-green);
